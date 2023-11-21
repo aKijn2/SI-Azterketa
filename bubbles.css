@@ -1,0 +1,11 @@
+#bubbleslist{
+    display: inline-flex;
+}
+
+.bubble {
+    background-color: lightgreen;
+    text-align-last: center;
+    margin: 5px 5px;
+    border-radius: 13px;
+    padding: 3px 8px;
+}
