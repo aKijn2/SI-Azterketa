@@ -1,4 +1,5 @@
 FROM httpd:2.4
+
 COPY ./web/ /usr/local/apache2/htdocs/
 
 RUN apt-get update && apt-get install -y net-tools iputils-ping curl wget
